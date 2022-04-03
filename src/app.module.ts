@@ -7,9 +7,11 @@ import { ProfilesModule } from './profiles/profiles.module';
 import { MatchesModule } from './matches/matches.module';
 import { AppGateway } from './app.gateway';
 import { ConfigurationService } from './configuration/configuration/configuration.service';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
+    ConfigModule.forRoot(),
     TypeOrmModule.forRoot({
       type: 'sqlite',
       database: './database/giga.db',
