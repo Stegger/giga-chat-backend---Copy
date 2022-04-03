@@ -82,5 +82,18 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stegger/giga-chat-backend---Copy.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Stegger/giga-chat-backend---Copy/issues"
+  },
+  "homepage": "https://github.com/Stegger/giga-chat-backend---Copy#readme"
 }
