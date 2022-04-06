@@ -9,6 +9,3 @@ export const mongodbProvider = [
       ),
   },
 ];
-
-//Localhost string:
-// 'mongodb://localhost/nest'
